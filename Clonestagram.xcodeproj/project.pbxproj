@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864E514917FA14697623BAC9 /* Pods_Clonestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B7B655C58D4A01D3470D5 /* Pods_Clonestagram.framework */; };
+		DA1B897D27DA0E44009899A5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B897C27DA0E44009899A5 /* CameraViewController.swift */; };
+		DA9A7F9E27D9F7AE0033258A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A7F9D27D9F7AE0033258A /* LoginViewController.swift */; };
+		DA9A7FA027D9F7CE0033258A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A7F9F27D9F7CE0033258A /* FeedViewController.swift */; };
 		DAB6B1F827D9EF700095CD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6B1F727D9EF700095CD04 /* AppDelegate.swift */; };
 		DAB6B1FA27D9EF700095CD04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6B1F927D9EF700095CD04 /* SceneDelegate.swift */; };
-		DAB6B1FC27D9EF700095CD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6B1FB27D9EF700095CD04 /* ViewController.swift */; };
 		DAB6B1FF27D9EF700095CD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB6B1FD27D9EF700095CD04 /* Main.storyboard */; };
 		DAB6B20127D9EF730095CD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB6B20027D9EF730095CD04 /* Assets.xcassets */; };
 		DAB6B20427D9EF730095CD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB6B20227D9EF730095CD04 /* LaunchScreen.storyboard */; };
+		DAD5B6F327DA943600232EC1 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5B6F227DA943600232EC1 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C0B7B655C58D4A01D3470D5 /* Pods_Clonestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clonestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783CAB8344F20933122EE9C2 /* Pods-Clonestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clonestagram.debug.xcconfig"; path = "Target Support Files/Pods-Clonestagram/Pods-Clonestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		BB73152D0D2D5FD04511F6BD /* Pods-Clonestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clonestagram.release.xcconfig"; path = "Target Support Files/Pods-Clonestagram/Pods-Clonestagram.release.xcconfig"; sourceTree = "<group>"; };
+		DA1B897C27DA0E44009899A5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DA9A7F9D27D9F7AE0033258A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA9A7F9F27D9F7CE0033258A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		DAB6B1F427D9EF700095CD04 /* Clonestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clonestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB6B1F727D9EF700095CD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB6B1F927D9EF700095CD04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAB6B1FB27D9EF700095CD04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAB6B1FE27D9EF700095CD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAB6B20027D9EF730095CD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB6B20327D9EF730095CD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB6B20527D9EF730095CD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD5B6F227DA943600232EC1 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864E514917FA14697623BAC9 /* Pods_Clonestagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410842EAB56EAF6D6A15A5E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				783CAB8344F20933122EE9C2 /* Pods-Clonestagram.debug.xcconfig */,
+				BB73152D0D2D5FD04511F6BD /* Pods-Clonestagram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9630942793D0017AD1346086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B7B655C58D4A01D3470D5 /* Pods_Clonestagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DAB6B1EB27D9EF700095CD04 = {
 			isa = PBXGroup;
 			children = (
 				DAB6B1F627D9EF700095CD04 /* Clonestagram */,
 				DAB6B1F527D9EF700095CD04 /* Products */,
+				410842EAB56EAF6D6A15A5E1 /* Pods */,
+				9630942793D0017AD1346086 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +88,11 @@
 			children = (
 				DAB6B1F727D9EF700095CD04 /* AppDelegate.swift */,
 				DAB6B1F927D9EF700095CD04 /* SceneDelegate.swift */,
-				DAB6B1FB27D9EF700095CD04 /* ViewController.swift */,
 				DAB6B1FD27D9EF700095CD04 /* Main.storyboard */,
+				DAD5B6F227DA943600232EC1 /* PostCell.swift */,
+				DA1B897C27DA0E44009899A5 /* CameraViewController.swift */,
+				DA9A7F9D27D9F7AE0033258A /* LoginViewController.swift */,
+				DA9A7F9F27D9F7CE0033258A /* FeedViewController.swift */,
 				DAB6B20027D9EF730095CD04 /* Assets.xcassets */,
 				DAB6B20227D9EF730095CD04 /* LaunchScreen.storyboard */,
 				DAB6B20527D9EF730095CD04 /* Info.plist */,
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAB6B20827D9EF730095CD04 /* Build configuration list for PBXNativeTarget "Clonestagram" */;
 			buildPhases = (
+				30EB95CC204A8615F5AF9472 /* [CP] Check Pods Manifest.lock */,
 				DAB6B1F027D9EF700095CD04 /* Sources */,
 				DAB6B1F127D9EF700095CD04 /* Frameworks */,
 				DAB6B1F227D9EF700095CD04 /* Resources */,
+				8F5B38A829199AF2DC8402E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +168,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30EB95CC204A8615F5AF9472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clonestagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F5B38A829199AF2DC8402E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clonestagram/Pods-Clonestagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clonestagram/Pods-Clonestagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clonestagram/Pods-Clonestagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAB6B1F027D9EF700095CD04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB6B1FC27D9EF700095CD04 /* ViewController.swift in Sources */,
+				DA9A7F9E27D9F7AE0033258A /* LoginViewController.swift in Sources */,
+				DA1B897D27DA0E44009899A5 /* CameraViewController.swift in Sources */,
 				DAB6B1F827D9EF700095CD04 /* AppDelegate.swift in Sources */,
+				DA9A7FA027D9F7CE0033258A /* FeedViewController.swift in Sources */,
 				DAB6B1FA27D9EF700095CD04 /* SceneDelegate.swift in Sources */,
+				DAD5B6F327DA943600232EC1 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +364,7 @@
 		};
 		DAB6B20927D9EF730095CD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783CAB8344F20933122EE9C2 /* Pods-Clonestagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +393,7 @@
 		};
 		DAB6B20A27D9EF730095CD04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB73152D0D2D5FD04511F6BD /* Pods-Clonestagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
