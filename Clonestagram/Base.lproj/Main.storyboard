@@ -69,17 +69,15 @@
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" id="qdf-ca-ZAN">
-                        <rightBarButtonItems>
-                            <barButtonItem image="insta_camera_btn" id="gV7-6f-AYB">
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <connections>
-                                    <segue destination="g5h-Ax-AYK" kind="presentation" id="u7F-2Q-bJ3"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem image="instagram_logo" id="tOy-Xt-JGg">
-                                <color key="tintColor" systemColor="labelColor"/>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                        <barButtonItem key="leftBarButtonItem" image="instagram_logo" id="tOy-Xt-JGg">
+                            <color key="tintColor" systemColor="labelColor"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="insta_camera_btn" id="gV7-6f-AYB">
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <segue destination="g5h-Ax-AYK" kind="presentation" id="u7F-2Q-bJ3"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="724-go-Lcx" id="Pu7-Xg-8ja"/>
