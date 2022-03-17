@@ -11,6 +11,7 @@
 		DA1B897D27DA0E44009899A5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B897C27DA0E44009899A5 /* CameraViewController.swift */; };
 		DA9A7F9E27D9F7AE0033258A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A7F9D27D9F7AE0033258A /* LoginViewController.swift */; };
 		DA9A7FA027D9F7CE0033258A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A7F9F27D9F7CE0033258A /* FeedViewController.swift */; };
+		DAA1ADFB27E2CC43002280FF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1ADFA27E2CC43002280FF /* CommentCell.swift */; };
 		DAB6B1F827D9EF700095CD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6B1F727D9EF700095CD04 /* AppDelegate.swift */; };
 		DAB6B1FA27D9EF700095CD04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6B1F927D9EF700095CD04 /* SceneDelegate.swift */; };
 		DAB6B1FF27D9EF700095CD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB6B1FD27D9EF700095CD04 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		DA1B897C27DA0E44009899A5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		DA9A7F9D27D9F7AE0033258A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DA9A7F9F27D9F7CE0033258A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DAA1ADFA27E2CC43002280FF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		DAB6B1F427D9EF700095CD04 /* Clonestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clonestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB6B1F727D9EF700095CD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB6B1F927D9EF700095CD04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DAB6B1F727D9EF700095CD04 /* AppDelegate.swift */,
 				DAB6B1F927D9EF700095CD04 /* SceneDelegate.swift */,
 				DAB6B1FD27D9EF700095CD04 /* Main.storyboard */,
+				DAA1ADFA27E2CC43002280FF /* CommentCell.swift */,
 				DAD5B6F227DA943600232EC1 /* PostCell.swift */,
 				DA1B897C27DA0E44009899A5 /* CameraViewController.swift */,
 				DA9A7F9D27D9F7AE0033258A /* LoginViewController.swift */,
@@ -221,6 +224,7 @@
 				DA9A7FA027D9F7CE0033258A /* FeedViewController.swift in Sources */,
 				DAB6B1FA27D9EF700095CD04 /* SceneDelegate.swift in Sources */,
 				DAD5B6F327DA943600232EC1 /* PostCell.swift in Sources */,
+				DAA1ADFB27E2CC43002280FF /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
